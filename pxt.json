@@ -1,0 +1,23 @@
+{
+    "name": "IoTBitKit",
+    "version": "0.0.1",
+    "description": "Thư viện IoTBitKit dành cho Micro:Bit",
+    "dependencies": {
+        "core": "*",
+        "NFC": "github:npnlab-vn/pxt-NFC",
+        "RTC1307": "github:npnlab-vn/pxt-realtimeclock-ds1307",
+        "ESP8266_IoT": "github:npnlab-vn/pxt-esp8266iot",
+        "WIFI": "github:npnlab-vn/pxt-wifi"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "NPNBitKit.ts",
+        "NPNLCD.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false,
+    "installedVersion": "workspace:1cd2cfd9-3a2e-4111-7ffb-f85a02acb562"
+}
